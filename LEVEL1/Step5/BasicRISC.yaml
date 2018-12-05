@@ -38,7 +38,7 @@ Registers:
   - RegName: r1
     Width: 64
     Index: 1
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -49,7 +49,7 @@ Registers:
   - RegName: r2
     Width: 64
     Index: 2
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -60,7 +60,7 @@ Registers:
   - RegName: r3
     Width: 64
     Index: 3
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -71,7 +71,7 @@ Registers:
   - RegName: r4
     Width: 64
     Index: 4
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -82,7 +82,7 @@ Registers:
   - RegName: r5
     Width: 64
     Index: 5
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -93,7 +93,7 @@ Registers:
   - RegName: r6
     Width: 64
     Index: 6
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -104,7 +104,7 @@ Registers:
   - RegName: r7
     Width: 64
     Index: 7
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -115,7 +115,7 @@ Registers:
   - RegName: r8
     Width: 64
     Index: 8
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -126,7 +126,7 @@ Registers:
   - RegName: r9
     Width: 64
     Index: 9
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -137,7 +137,7 @@ Registers:
   - RegName: r10
     Width: 64
     Index: 10
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -148,7 +148,7 @@ Registers:
   - RegName: r11
     Width: 64
     Index: 11
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -159,7 +159,7 @@ Registers:
   - RegName: r12
     Width: 64
     Index: 12
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -170,7 +170,7 @@ Registers:
   - RegName: r13
     Width: 64
     Index: 13
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -181,7 +181,7 @@ Registers:
   - RegName: r14
     Width: 64
     Index: 14
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -192,7 +192,7 @@ Registers:
   - RegName: r15
     Width: 64
     Index: 15
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -203,7 +203,7 @@ Registers:
   - RegName: r16
     Width: 64
     Index: 16
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -214,7 +214,7 @@ Registers:
   - RegName: r17
     Width: 64
     Index: 17
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -225,7 +225,7 @@ Registers:
   - RegName: r18
     Width: 64
     Index: 18
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -236,7 +236,7 @@ Registers:
   - RegName: r19
     Width: 64
     Index: 19
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -247,7 +247,7 @@ Registers:
   - RegName: r20
     Width: 64
     Index: 20
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -258,7 +258,7 @@ Registers:
   - RegName: r21
     Width: 64
     Index: 21
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -269,7 +269,7 @@ Registers:
   - RegName: r22
     Width: 64
     Index: 22
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -280,7 +280,7 @@ Registers:
   - RegName: r23
     Width: 64
     Index: 23
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -291,7 +291,7 @@ Registers:
   - RegName: r24
     Width: 64
     Index: 24
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -302,7 +302,7 @@ Registers:
   - RegName: r25
     Width: 64
     Index: 25
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -313,7 +313,7 @@ Registers:
   - RegName: r26
     Width: 64
     Index: 26
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -324,7 +324,7 @@ Registers:
   - RegName: r27
     Width: 64
     Index: 27
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -335,7 +335,7 @@ Registers:
   - RegName: r28
     Width: 64
     Index: 28
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -346,7 +346,7 @@ Registers:
   - RegName: r29
     Width: 64
     Index: 29
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -357,7 +357,7 @@ Registers:
   - RegName: r30
     Width: 64
     Index: 30
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -368,7 +368,7 @@ Registers:
   - RegName: r31
     Width: 64
     Index: 31
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -380,7 +380,7 @@ Registers:
   - RegName: pc
     Width: 64
     Index: 0
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: false
     ROReg: true
@@ -391,7 +391,7 @@ Registers:
   - RegName: exc
     Width: 64
     Index: 1
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: false
     ROReg: true
@@ -403,6 +403,7 @@ Registers:
     Width: 1
     Index: 2
     IsFixedValue: true
+    FixedValue: 2
     IsSIMD: false
     RWReg: false
     ROReg: true
@@ -414,6 +415,7 @@ Registers:
     Width: 1
     Index: 3
     IsFixedValue: true
+    FixedValue: 3
     IsSIMD: false
     RWReg: false
     ROReg: true
@@ -425,6 +427,7 @@ Registers:
     Width: 1
     Index: 4
     IsFixedValue: true
+    FixedValue: 4
     IsSIMD: false
     RWReg: false
     ROReg: true
@@ -436,6 +439,7 @@ Registers:
     Width: 1
     Index: 5
     IsFixedValue: true
+    FixedValue: 5
     IsSIMD: false
     RWReg: false
     ROReg: true
@@ -447,6 +451,7 @@ Registers:
     Width: 1
     Index: 6
     IsFixedValue: true
+    FixedValue: 6
     IsSIMD: false
     RWReg: false
     ROReg: true
@@ -458,6 +463,7 @@ Registers:
     Width: 1
     Index: 7
     IsFixedValue: true
+    FixedValue: 7
     IsSIMD: false
     RWReg: false
     ROReg: true
@@ -468,7 +474,7 @@ Registers:
   - RegName: sp
     Width: 64
     Index: 16
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -479,7 +485,7 @@ Registers:
   - RegName: fp
     Width: 64
     Index: 17
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -490,7 +496,7 @@ Registers:
   - RegName: rp
     Width: 64
     Index: 18
-    IsFixedValue: true
+    IsFixedValue: false
     IsSIMD: false
     RWReg: true
     ROReg: false
@@ -566,14 +572,14 @@ InstFormats:
     ISA: BasicRISC.ISA
     FormatWidth: 32
     Fields:
-      - FieldName: rb
+      - FieldName: ra
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 0
         EndBit: 4
         MandatoryField: true
         RegClass: GPR
-      - FieldName: ra
+      - FieldName: rb
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 5
@@ -601,21 +607,22 @@ InstFormats:
         MandatoryField: true
       - FieldName: imm
         FieldType: CGInstImm
-        FieldWidth: 5
+        FieldWidth: 7
         StartBit: 25
         EndBit: 31
+        MandatoryField: true
   - InstFormatName: ReadCtrl.if
     ISA: BasicRISC.ISA
     FormatWidth: 32
     Fields:
-      - FieldName: rb
+      - FieldName: ra
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 0
         EndBit: 4
         MandatoryField: true
         RegClass: GPR
-      - FieldName: ra
+      - FieldName: rb
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 5
@@ -643,21 +650,22 @@ InstFormats:
         MandatoryField: true
       - FieldName: imm
         FieldType: CGInstImm
-        FieldWidth: 5
+        FieldWidth: 7
         StartBit: 25
         EndBit: 31
+        MandatoryField: true
   - InstFormatName: WriteCtrl.if
     ISA: BasicRISC.ISA
     FormatWidth: 32
     Fields:
-      - FieldName: rb
+      - FieldName: ra
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 0
         EndBit: 4
         MandatoryField: true
         RegClass: GPR
-      - FieldName: ra
+      - FieldName: rb
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 5
@@ -685,8 +693,8 @@ InstFormats:
         MandatoryField: true
       - FieldName: imm
         FieldType: CGInstImm
-        FieldWidth: 5
+        FieldWidth: 7
         StartBit: 25
         EndBit: 31
-
+        MandatoryField: true
 
