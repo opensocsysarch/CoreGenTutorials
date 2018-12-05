@@ -400,7 +400,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: ne
-    Width: 1
+    Width: 64
     Index: 2
     IsFixedValue: true
     FixedValue: 2
@@ -412,7 +412,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: eq
-    Width: 1
+    Width: 64
     Index: 3
     IsFixedValue: true
     FixedValue: 3
@@ -424,7 +424,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: gt
-    Width: 1
+    Width: 64
     Index: 4
     IsFixedValue: true
     FixedValue: 4
@@ -436,7 +436,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: lt
-    Width: 1
+    Width: 64
     Index: 5
     IsFixedValue: true
     FixedValue: 5
@@ -448,7 +448,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: gte
-    Width: 1
+    Width: 64
     Index: 6
     IsFixedValue: true
     FixedValue: 6
@@ -460,7 +460,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: lte
-    Width: 1
+    Width: 64
     Index: 7
     IsFixedValue: true
     FixedValue: 7

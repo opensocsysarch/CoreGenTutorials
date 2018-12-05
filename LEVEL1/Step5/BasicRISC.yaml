@@ -400,7 +400,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: ne
-    Width: 1
+    Width: 64
     Index: 2
     IsFixedValue: true
     FixedValue: 2
@@ -412,7 +412,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: eq
-    Width: 1
+    Width: 64
     Index: 3
     IsFixedValue: true
     FixedValue: 3
@@ -424,7 +424,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: gt
-    Width: 1
+    Width: 64
     Index: 4
     IsFixedValue: true
     FixedValue: 4
@@ -436,7 +436,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: lt
-    Width: 1
+    Width: 64
     Index: 5
     IsFixedValue: true
     FixedValue: 5
@@ -448,7 +448,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: gte
-    Width: 1
+    Width: 64
     Index: 6
     IsFixedValue: true
     FixedValue: 6
@@ -460,7 +460,7 @@ Registers:
     TUSReg: false
     Shared: false
   - RegName: lte
-    Width: 1
+    Width: 64
     Index: 7
     IsFixedValue: true
     FixedValue: 7
@@ -577,21 +577,21 @@ InstFormats:
         FieldWidth: 5
         StartBit: 0
         EndBit: 4
-        MandatoryField: true
+        MandatoryField: false
         RegClass: GPR
       - FieldName: rb
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 5
         EndBit: 9
-        MandatoryField: true
+        MandatoryField: false
         RegClass: GPR
       - FieldName: rt
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 10
         EndBit: 14
-        MandatoryField: true
+        MandatoryField: false
         RegClass: GPR
       - FieldName: opc
         FieldType: CGInstCode
@@ -610,7 +610,7 @@ InstFormats:
         FieldWidth: 7
         StartBit: 25
         EndBit: 31
-        MandatoryField: true
+        MandatoryField: false
   - InstFormatName: ReadCtrl.if
     ISA: BasicRISC.ISA
     FormatWidth: 32
@@ -620,21 +620,21 @@ InstFormats:
         FieldWidth: 5
         StartBit: 0
         EndBit: 4
-        MandatoryField: true
+        MandatoryField: false
         RegClass: GPR
       - FieldName: rb
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 5
         EndBit: 9
-        MandatoryField: true
+        MandatoryField: false
         RegClass: CTRL
       - FieldName: rt
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 10
         EndBit: 14
-        MandatoryField: true
+        MandatoryField: false
         RegClass: GPR
       - FieldName: opc
         FieldType: CGInstCode
@@ -653,7 +653,7 @@ InstFormats:
         FieldWidth: 7
         StartBit: 25
         EndBit: 31
-        MandatoryField: true
+        MandatoryField: false
   - InstFormatName: WriteCtrl.if
     ISA: BasicRISC.ISA
     FormatWidth: 32
@@ -663,21 +663,21 @@ InstFormats:
         FieldWidth: 5
         StartBit: 0
         EndBit: 4
-        MandatoryField: true
+        MandatoryField: false
         RegClass: GPR
       - FieldName: rb
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 5
         EndBit: 9
-        MandatoryField: true
+        MandatoryField: false
         RegClass: GPR
       - FieldName: rt
         FieldType: CGInstReg
         FieldWidth: 5
         StartBit: 10
         EndBit: 14
-        MandatoryField: true
+        MandatoryField: false
         RegClass: CTRL
       - FieldName: opc
         FieldType: CGInstCode
@@ -696,5 +696,6 @@ InstFormats:
         FieldWidth: 7
         StartBit: 25
         EndBit: 31
-        MandatoryField: true
+        MandatoryField: false
+
 
