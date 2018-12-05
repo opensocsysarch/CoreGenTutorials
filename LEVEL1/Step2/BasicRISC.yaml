@@ -1,0 +1,18 @@
+# -------------------------------------------------------
+# BasicRISC.yaml
+#
+# CoreGen Design Tutorial
+# Copyright 2018 Tactical Computing Laboratories, LLC
+#
+# Licensed under an Apache2 license
+# -------------------------------------------------------
+
+# -------------------------------------------------------
+# ProjectInfo Section
+# -------------------------------------------------------
+ProjectInfo:
+  - ProjectName: BasicRISC
+    ProjectRoot: ./
+    ProjectType: soc
+    ChiselMajorVersion: 3
+    ChiselMinorVersion: 0

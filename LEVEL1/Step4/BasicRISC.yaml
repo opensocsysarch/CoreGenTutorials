@@ -1,0 +1,560 @@
+# -------------------------------------------------------
+# BasicRISC.yaml
+#
+# CoreGen Design Tutorial
+# Copyright 2018 Tactical Computing Laboratories, LLC
+#
+# Licensed under an Apache2 license
+# -------------------------------------------------------
+
+# -------------------------------------------------------
+# ProjectInfo Section
+# -------------------------------------------------------
+ProjectInfo:
+  - ProjectName: BasicRISC
+    ProjectRoot: ./
+    ProjectType: soc
+    ChiselMajorVersion: 3
+    ChiselMinorVersion: 0
+
+
+# -------------------------------------------------------
+# Register Section
+# -------------------------------------------------------
+Registers:
+  - RegName: r0
+    Width: 64
+    Index: 0
+    PseudoName: zero
+    IsFixedValue: true
+    FixedValue: 0
+    IsSIMD: false
+    RWReg: false
+    ROReg: true
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r1
+    Width: 64
+    Index: 1
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r2
+    Width: 64
+    Index: 2
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r3
+    Width: 64
+    Index: 3
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r4
+    Width: 64
+    Index: 4
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r5
+    Width: 64
+    Index: 5
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r6
+    Width: 64
+    Index: 6
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r7
+    Width: 64
+    Index: 7
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r8
+    Width: 64
+    Index: 8
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r9
+    Width: 64
+    Index: 9
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r10
+    Width: 64
+    Index: 10
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r11
+    Width: 64
+    Index: 11
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r12
+    Width: 64
+    Index: 12
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r13
+    Width: 64
+    Index: 13
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r14
+    Width: 64
+    Index: 14
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r15
+    Width: 64
+    Index: 15
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r16
+    Width: 64
+    Index: 16
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r17
+    Width: 64
+    Index: 17
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r18
+    Width: 64
+    Index: 18
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r19
+    Width: 64
+    Index: 19
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r20
+    Width: 64
+    Index: 20
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r21
+    Width: 64
+    Index: 21
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r22
+    Width: 64
+    Index: 22
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r23
+    Width: 64
+    Index: 23
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r24
+    Width: 64
+    Index: 24
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r25
+    Width: 64
+    Index: 25
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r26
+    Width: 64
+    Index: 26
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r27
+    Width: 64
+    Index: 27
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r28
+    Width: 64
+    Index: 28
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r29
+    Width: 64
+    Index: 29
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r30
+    Width: 64
+    Index: 30
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: r31
+    Width: 64
+    Index: 31
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+
+  - RegName: pc
+    Width: 64
+    Index: 0
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: false
+    ROReg: true
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: exc
+    Width: 64
+    Index: 1
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: false
+    ROReg: true
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: ne
+    Width: 1
+    Index: 2
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: false
+    ROReg: true
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: eq
+    Width: 1
+    Index: 3
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: false
+    ROReg: true
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: gt
+    Width: 1
+    Index: 4
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: false
+    ROReg: true
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: lt
+    Width: 1
+    Index: 5
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: false
+    ROReg: true
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: gte
+    Width: 1
+    Index: 6
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: false
+    ROReg: true
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: lte
+    Width: 1
+    Index: 7
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: false
+    ROReg: true
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: sp
+    Width: 64
+    Index: 16
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: fp
+    Width: 64
+    Index: 17
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+  - RegName: rp
+    Width: 64
+    Index: 18
+    IsFixedValue: true
+    IsSIMD: false
+    RWReg: true
+    ROReg: false
+    CSRReg: false
+    AMSReg: false
+    TUSReg: false
+    Shared: false
+
+# -------------------------------------------------------
+# Register Class Section
+# -------------------------------------------------------
+RegClasses:
+  - RegisterClassName: GPR
+    Registers:
+      - r0
+      - r1
+      - r2
+      - r3
+      - r4
+      - r5
+      - r6
+      - r7
+      - r8
+      - r9
+      - r10
+      - r11
+      - r12
+      - r13
+      - r14
+      - r15
+      - r16
+      - r17
+      - r18
+      - r19
+      - r20
+      - r21
+      - r22
+      - r23
+      - r24
+      - r25
+      - r26
+      - r27
+      - r28
+      - r29
+      - r30
+      - r31
+  - RegisterClassName: CTRL
+    Registers:
+      - pc
+      - exc
+      - ne
+      - eq
+      - gt
+      - lt
+      - gte
+      - lte
+      - sp
+      - fp
+      - rp
+
+# -------------------------------------------------------
+# ISA Section
+# -------------------------------------------------------
+ISAs:
+  - ISAName: BasicRISC.ISA
+
+
