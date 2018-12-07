@@ -2249,7 +2249,7 @@ node3223Enc;
 node3223Enc [label="Enc=0"];
 node3223-> node3223Enc;
 node3224;
-node3224 [label="movgc:rb"];
+node3224 [label="movgc:ra"];
 node3224Enc;
 node3224Enc [label="Enc=0"];
 node3224-> node3224Enc;

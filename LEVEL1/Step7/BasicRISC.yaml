@@ -1291,7 +1291,7 @@ PseudoInsts:
     ISA: BasicRISC.ISA
     Inst: cadd
     Encodings:
-      - EncodingField: rb
+      - EncodingField: ra
         EncodingWidth: 5
         EncodingValue: 0
 
