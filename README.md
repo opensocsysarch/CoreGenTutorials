@@ -11,3 +11,5 @@ System Architect Design Concepts and Developing a Basic RISC Processor
 ## LEVEL2 Tutorial
 Instruction-Level (StoneCutter) Implementation Concepts
 
+## CoreGenPortal Tutorial
+CoreGenPortal graphical user interface tutorial
