@@ -382,12 +382,13 @@ Registers:
     Index: 0
     IsFixedValue: false
     IsSIMD: false
-    RWReg: false
-    ROReg: true
+    RWReg: true
+    ROReg: false
     CSRReg: false
     AMSReg: false
     TUSReg: false
     Shared: false
+    PCReg: true
   - RegName: exc
     Width: 64
     Index: 1
