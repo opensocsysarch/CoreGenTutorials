@@ -17,7 +17,6 @@ ProjectInfo:
     ChiselMajorVersion: 3
     ChiselMinorVersion: 0
 
-
 # -------------------------------------------------------
 # Register Section
 # -------------------------------------------------------
@@ -382,8 +381,8 @@ Registers:
     Index: 0
     IsFixedValue: false
     IsSIMD: false
-    RWReg: false
-    ROReg: true
+    RWReg: true
+    ROReg: false
     CSRReg: false
     AMSReg: false
     TUSReg: false
@@ -563,7 +562,6 @@ RegClasses:
 ISAs:
   - ISAName: BasicRISC.ISA
 
-
 # -------------------------------------------------------
 # Instruction Format Section
 # -------------------------------------------------------
@@ -698,12 +696,11 @@ InstFormats:
         EndBit: 31
         MandatoryField: false
 
-
 # -------------------------------------------------------
 # Instruction Section
 # -------------------------------------------------------
 Insts:
-# -- Integer Arithmetic
+  # -- Integer Arithmetic
   - Inst: add
     ISA: BasicRISC.ISA
     InstFormat: Arith.if
@@ -874,7 +871,7 @@ Insts:
         EncodingWidth: 7
         EncodingValue: 0
 
-# -- Comparisons
+  # -- Comparisons
   - Inst: cmp.ne
     ISA: BasicRISC.ISA
     InstFormat: Arith.if
@@ -954,7 +951,7 @@ Insts:
         EncodingWidth: 7
         EncodingValue: 0
 
-# -- Memory I/O
+  # -- Memory I/O
   - Inst: lb
     ISA: BasicRISC.ISA
     InstFormat: Arith.if
@@ -1138,7 +1135,7 @@ Insts:
         EncodingWidth: 5
         EncodingValue: 0
 
-# -- Two Operand Arithmetic
+  # -- Two Operand Arithmetic
   - Inst: not
     ISA: BasicRISC.ISA
     InstFormat: Arith.if
@@ -1156,7 +1153,7 @@ Insts:
         EncodingWidth: 7
         EncodingValue: 0
 
-# -- Unconditional Branches
+  # -- Unconditional Branches
   - Inst: bra
     ISA: BasicRISC.ISA
     InstFormat: Arith.if
@@ -1196,7 +1193,7 @@ Insts:
         EncodingWidth: 7
         EncodingValue: 0
 
-# -- Read from Control
+  # -- Read from Control
   - Inst: cadd
     ISA: BasicRISC.ISA
     InstFormat: ReadCtrl.if
@@ -1211,7 +1208,7 @@ Insts:
         EncodingWidth: 7
         EncodingValue: 0
 
-# -- Conditional Branches
+  # -- Conditional Branches
   - Inst: brac
     ISA: BasicRISC.ISA
     InstFormat: ReadCtrl.if
@@ -1239,7 +1236,7 @@ Insts:
         EncodingWidth: 7
         EncodingValue: 0
 
-# -- Move to Control
+  # -- Move to Control
   - Inst: ladd
     ISA: BasicRISC.ISA
     InstFormat: WriteCtrl.if
@@ -1254,7 +1251,7 @@ Insts:
         EncodingWidth: 7
         EncodingValue: 0
 
-# -- Call/Rtn Spport
+  # -- Call/Rtn Spport
   - Inst: brr
     ISA: BasicRISC.ISA
     InstFormat: WriteCtrl.if
@@ -1322,4 +1319,3 @@ Socs:
   - Soc: BasicRISC.soc
     Cores:
       - Core: core0
-
