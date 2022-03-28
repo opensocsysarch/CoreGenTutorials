@@ -387,6 +387,7 @@ Registers:
     AMSReg: false
     TUSReg: false
     Shared: false
+    PCReg: true
   - RegName: exc
     Width: 64
     Index: 1
